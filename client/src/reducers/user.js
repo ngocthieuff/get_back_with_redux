@@ -1,5 +1,3 @@
-const userReducer = (state, action) => {
+export const userReducer = (state = {}, action) => {
     return state;
 }
-
-export default userReducer;
